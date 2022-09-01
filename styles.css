@@ -1,7 +1,7 @@
 body,
 html {
     height: 100%;
-    background-color: rgb(187, 188, 187)
+    background-color: rgb(0, 0, 0)
 }
 
 .hero-image {
@@ -28,7 +28,7 @@ html {
 
 a:link,
 a:visited {
-    color: rgb(74, 192, 78);
+    color: rgb(166, 179, 166);
     text-align: center;
     text-decoration: underline;
     display: inline-block;
@@ -37,7 +37,7 @@ a:visited {
 
 a:hover,
 a:active {
-    background-color: rgba(174, 223, 182, 0.884);
+    background-color: rgba(89, 126, 95, 0.884);
     transition-property: background-color;
     transition-duration: 1.5s;
 }
@@ -47,8 +47,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    border: 1px solid #000000;
+    background-color: #000000;
 
 }
 
@@ -58,7 +58,7 @@ li {
 
 li a {
     display: block;
-    color: #666;
+    color: rgb(67, 65, 65);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,8 +66,28 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: rgba(174, 223, 182, 0.884);
+    background-color: rgba(89, 126, 95, 0.884);
 }
+
+h2 {
+    color: white;
+}
+
+.me:hover {
+    opacity: 0.7;
+}
+
+.me {
+    max-width: 50%;
+    height: 50%;
+    float: left;
+}
+
+footer {
+    color: white;
+}
+
+
 
 /* Paragraphs */
 #one {
@@ -82,4 +102,8 @@ li a:hover {
 
 #three {
     color: rgb(74, 192, 78)
+}
+
+#four {
+    color: rgb(229, 222, 94)
 }
